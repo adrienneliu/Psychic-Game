@@ -1,0 +1,16 @@
+body{
+    background-image: url('https://cdn.dribbble.com/users/1788187/screenshots/5467579/magic_ball_4.gif');
+    background-size: cover;
+    background-position: center;
+    background-position-y: -50px;
+    
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+div {
+  background-color: purple;
+  background-color: rgba(0,0,0,.5);
+}

@@ -6,18 +6,18 @@
     <title>Psychic Game</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 
-<body>
-
+<body onload="guessNewLetter()">
+    
     <script src="assets/javascript/game.js"></script>
-    <div id="game">
+    <div class="container border m-4 float" id="game">
             <h1> The Psychic Game </h1>
             <p>Guess what letter I'm thinking of! </p>
             <p>Wins: <span id = "win-count"></span></p>
-            Losses: <span id = "lose-count"></span>
+            <p>Losses: <span id = "lose-count"></span></p>
             <p>Guesses left: <span id ="guess-left">9</span></p>
             <p>Your guesses so far: <span id="guess-made"></span></p>
         
