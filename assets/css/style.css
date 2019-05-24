@@ -11,6 +11,7 @@ body{
 }
 
 div {
-  background-color: purple;
-  background-color: rgba(0,0,0,.5);
+  background-color: thistle;
+  opacity: .7;
+  width: 50%;
 }
