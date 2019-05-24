@@ -25,23 +25,28 @@ var userPressed = event.key.toLowerCase();
 guessMade.push(userPressed);
 document.getElementById("guess-made").textContent = guessMade;
 
-// show amount of guesses left
+
+//compare computer pick + user pick 
+// console.log(guessMade); 
+console.log(userPressed);
+
+if(userPressed === computerGuess){
+    winCount = ++winCount; 
+    document.getElementById("win-count").textContent = winCount;
+}
+else {
+    guessLeft = -- guessLeft;
+    document.getElementById("guess-left").textContent = guessLeft;
 }
 
 
+}
+
+// show user win/lose
 
 
 
-
-// declare a variable for the array we're storing the history of user key presses into and assign it to an empty array
-
-
-
-
-// show user win
-
-
-
+// show amount of guesses left
 
 
 // reset the win and loss count after guesscount reaches 0 (without refreshing the page)
